@@ -10,7 +10,8 @@
 	// mysql_select_db("capbox001");
 		
 	// header("Location: maintenance.php");
-	
+
+    // récupération des éléments du formulaire de connection
 	$hid="";
 	if (isset($_POST['hid'])) {
 		$hid = $_POST['hid'];
